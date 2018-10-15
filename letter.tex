@@ -69,10 +69,10 @@
 %
 \begin{document} 
 
+%   \title{Mass transfer via wind-Roche lobe overflow in High Mass X-ray binaries}
+   \title{Wind Roche lobe overflow in high mass X-ray binaries}
 
-   \title{Mass transfer via wind-RLOF in Supergiant X-ray binaries}
-
-   \subtitle{A possible mechanism for Ultraluminous X-ray sources}
+   \subtitle{A possible mass transfer mechanism for Ultraluminous X-ray sources}
 
    \author{I. El Mellah
           \inst{1}
@@ -98,7 +98,7 @@
 % \abstract{}{}{}{}{} 
 % 5 {} token are mandatory
  
-  \abstract{Ultra-luminous X-ray sources (\ulx) have such high X-ray luminosities that they were long thought to be accreting intermediate mass black holes. Yet, some have been shown to display periodic modulations and coherent pulsations, suggestive of a neutron star in orbit around a companion and accreting at super-Eddington rates. The question of the mass transfer mechanism suitable to feed the accretor at such high rates remains open. In this letter, we propose that Supergiant X-ray binaries (\sgx) could undergo a \ulx phase when the slow line-driven wind from the hot donor star is highly beamed towards the compact accretor. Since the star does not fill its Roche lobe and that a significant fraction of the stellar wind still escapes the system, this mass transfer mechanism known as "wind - Roche lobe overflow" can remain stable even for large mass ratios. Based on line-acceleration profiles derived from spectral observations and modeling of the stellar wind, we perform three-dimensional ballistic simulations to evaluate the fraction of the wind captured by the compact object. We identify realistic orbital and stellar conditions for a \sgx to be the stage of mass transfer rates matching the expectations for \ulx and show that the transition from \sgx to \ulx luminosity levels is progressive. These results prove that high stellar Roche lobe filling factors are not necessary to funnel large quantities of material into the Roche lobe of the accretor. Slow and dense winds such as the ones emitted by the Wolf-Rayet star in M101 ULX-1 or even the cold Red Supergiant in P13 ULX-1 are enough to lead to a highly beamed wind and a significantly enhanced mass transfer rate.}
+  \abstract{Ultra-luminous X-ray sources (\ulx) have such high X-ray luminosities that they were long thought to be accreting intermediate mass black holes. Yet, some have been shown to display periodic modulations and coherent pulsations, suggestive of a neutron star in orbit around a companion and accreting at super-Eddington rates. The question of the mass transfer mechanism suitable to feed the accretor at such high rates remains open. In this letter, we propose that Supergiant X-ray binaries (\sgx) could undergo a \ulx phase when the wind from the donor star is highly beamed towards the compact accretor. Since the star does not fill its Roche lobe and that a significant fraction of the stellar wind still escapes the system, this mass transfer mechanism known as "wind - Roche lobe overflow" can remain stable even for large mass ratios. Based on realistic acceleration profiles derived from spectral observations and modeling of the stellar wind, we perform three-dimensional ballistic simulations to evaluate the fraction of the wind captured by the compact object. We identify the orbital and stellar conditions for a \sgx to be the stage of mass transfer rates matching the expectations for \ulx and show that the transition from \sgx to \ulx luminosity levels is progressive. These results prove that high stellar Roche lobe filling factors are not necessary to funnel large quantities of material into the Roche lobe of the accretor. Slow and dense winds such as the ones emitted by the Wolf-Rayet star in M101 ULX-1 or the late B9 Supergiant in P13 ULX-1 are enough to lead to a highly beamed wind and a significantly enhanced mass transfer rate.}
 
    \keywords{XXX accretion, accretion discs -- X-rays: binaries -- stars: neutron, supergiants, winds, outflows -- methods: numerical}
 
@@ -115,26 +115,20 @@ XXX
 
 \section{Introduction}
 
-Ultra-luminous X-ray sources are point sources with luminosities in excess of 10$^{39}$erg$\cdot$s$^{-1}$ \citep[see][for a recent review]{Kaaret2017}. This X-ray luminosity threshold corresponds approximately to the Eddington luminosity \ledd of a 10\msun black hole (\bh), the limit above which isotropic accretion onto a body of this mass is thought to be self-regulated by the radiative field it produces \citep{Rappaport2005}. They are found off-nuclear in galaxies within a couple of 10Mpc, ruling against a supermassive black hole origin. If the emission is not beamed, such accretion rates can only be sustained for accretors of at least several 10 to several 100\msun bodies, suggestive of the long awaited population of intermediate mass black holes \citep{Colbert1999}. The observation of gravitational waves emitted by merging compact objects unearthed \bh of several 10\msun, while the accretors in the ULX IC 10 X-1 \citep{Brandt1997,Prestwich2007,Silverman2008} and M82 X-1 \citep{Brightman2016} are both 20 to 35\msun \bh. 
+Ultra-luminous X-ray sources are spatially-unresolved persistent sources with luminosities in excess of 10$^{39}$erg$\cdot$s$^{-1}$ \citep[see][for a recent review]{Kaaret2017}. This X-ray luminosity threshold corresponds approximately to the Eddington luminosity \ledd of a 10\msun black hole (\bh), the limit above which isotropic accretion onto a body of this mass is thought to be self-regulated by the radiative field it produces \citep{Rappaport2005}. They are found off-nuclear in galaxies within a couple of 10Mpc, ruling against a supermassive black hole origin. If the emission is not beamed, such accretion rates can only be sustained for accretors of at least several 10 to several 100\msun bodies, suggestive of the long awaited population of intermediate mass black holes \citep{Colbert1999}. The observation of gravitational waves emitted by merging compact objects unearthed \bh of several 10\msun, while the accretors in the ULX IC 10 X-1 \citep{Brandt1997,Prestwich2007,Silverman2008} and M82 X-1 \citep{Brightman2016} are both 20 to 35\msun \bh. 
 
-However, the detections of a cyclotron resonance scattering feature and of coherent pulsations from several ULX demonstrate that other ULX host super-Eddington accreting neutron stars \citep[\ns][]{Bachetti2014,Furst2016,Israel2017,Carpano2018,Brightman2018}. In one of them, NGC7793 P13 (hereafter P13), \cite{Motch2014} identified a stellar spectrum consistent with a 20\msun B9Ia star, in a $\sim$64 days orbit with an X-ray source they assumed to be a \bh but which later turned out to be an accreting \ns \citep{Furst2016}. It was further argued that the star has to fill its Roche lobe because the stellar mass loss rate would be too low and wind accretion would not be able to lead to a significant fraction of the stellar wind being captured by the accretor. Furthermore, \cite{Fuerst2018} isolated the intrinsic pulse period derivative which shows a strong spinning up of the accreting \ns. On the other hand, \citep{Liu2013} showed that in M101 ULX-1, the Helium emission lines are best explained by a Wolf-Rayet donor star twice smaller than its Roche lobe, ruling out the possibility of a mass transfer towards the accreting stellar mass \bh via Roche lobe overflow (\rlof). This result illustrates the pressing need for a better understanding of wind capture in binary systems.
+However, the detections of a cyclotron resonance scattering feature and of coherent pulsations from several ULX demonstrate that other ULX host super-Eddington accreting neutron stars \citep[\ns][]{Bachetti2014,Furst2016,Israel2017,Carpano2018,Brightman2018}. In one of them, NGC7793 P13 (hereafter P13), \cite{Motch2014} identified a stellar spectrum consistent with a 20\msun B9Ia star, in a $\sim$64 days orbit with an X-ray source they assumed to be a \bh but which later turned out to be an accreting \ns \citep{Furst2016}. It was further argued that the star has to fill its Roche lobe because the stellar mass loss rate would be too low and wind accretion would not be able to lead to a significant fraction of the stellar wind being captured by the accretor. However, such a large mass ratio (defined as the mass of the donor divided by the mass of the accretor) would most certainly lead to unstable \rlof, even in the most stabilizing configurations \citep{Pavlovskii2017}. On the other hand, \citep{Liu2013} showed that in M101 ULX-1, the Helium emission lines are best explained by a Wolf-Rayet donor star twice smaller than its Roche lobe. It rules out a mass transfer towards the accreting stellar mass \bh via Roche lobe overflow (\rlof), in spite of the ULX luminosity level. 
+
+Regardless from the nature of the accretor, most ULX are now thought to be the high mass accretion rate end of the Supergiant X-ray binaries (\sgx), where the wind from a supergiant donor star acts as a reservoir of matter tapped by the orbiting compact object. The X-ray luminosity functions of \sgx and \ulx follow the same power-law, without apparent break \citep{Gilfanov2004,Swartz2011}. Super-orbital periods are observed in \sgx \citep{Corbet2013} and in \ulx \citep{Walton2016,Fuerst2018}. The main spectral differences between \sgx and \ulx can be attributed either to the nature of the donor or to different accretion geometry in the immediate vicinity of the accretor \citep{Kaaret2017}. All these elements support the idea that both types of objects belong to the same population and that the mass transfer mechanism at the orbital scale might be qualitatively the same.
 
 The final absolute X-ray luminosity $L_X$ released by accretion onto a compact object fed by a stellar companion depends on :
 \begin{itemize}
-\item \mdotstar, the stellar mass loss rate which sets the maximum rate reachable.
-\item $\dot{M}$, the rate at which mass is transferred from the star into the domain of gravitational influence of the accretor (either the Roche lobe or the accretion cylinder).
-\item \mdotacc, the mass which actually ends up being accreted onto the compact object.
-\item $\zeta$, the efficiency of the conversion of accreted mass to radiation. In this paper, we set it to 10$\%$, appropriate for negligible outflows \citep{Kaaret2017}.
+\item \mdotstar the stellar mass loss rate.
+\item $\dot{M}$ the rate at which mass is transferred from the star into the domain of gravitational influence of the accretor (either the Roche lobe or the accretion cylinder).
+\item \mdotacc the mass which actually ends up being accreted onto the compact object.
+\item $\zeta$ the efficiency of the conversion of accreted mass to radiation. In this paper, we set it to 10$\%$, appropriate for negligible outflows \citep{Kaaret2017}.
 \end{itemize} 
-with \mdotstar$>\dot{M}>$\mdotacc. In this letter, we set aside the question of the mechanism responsible for super-Eddington accretion itself \ie how the compact object can accrete at a rate \mdotacc leading to $L_X>$\ledd. Rather, we  
-
- mechanism leading to super-Eddington accretion which explains how the compact object can accrete at a rate \mdotacc Pinto
-
-Although another scenario is investigated in this letter.
-
-Regardless of the mechanism which explains the super-Eddington accretion rates in the immediate vicinity of the accretor, which source of matter? Likely binary systems (natural extension of the HMXB LX distribution) where a donor star plays the role of a reservoir tapped by the orbiting compact object. In P13 for instance, high mass star + NS. In M101, the spectrum is suggestive of a WR star and the accretor might be a BH (Liu2013).
-
-X-ray binaries have lower luminosities though. Neither RLOF nor wind BHL can reach these levels. RLOF, ~LMXB, limited by the transverse section of the channel @ L1 while fast winds (~HMXB) mean low capture cross-sections. The first is essentially limited by the small sound speed compared to the orbital speed while the second is limited by the large wind speed with respect to the orbital speed. => wind-RLOF configuration leading to enhanced accretion, best of both worlds when the stellar mass loss rate is large. \cite{King2002} suggested that above a mass ratio unity, unstable RLOF mass transfer occurs on a thermal time scale and lead to high mass accretion rate onto the compact companion. However, \cite{Pavlovskii2017} recently found that RLOF mass transfer can be stable for large q, up to 7.5. Not high enough though to match the mass ratio in P13 where the stellar mass is at least 10 times larger than the mass of the accreting \ns.
+with \mdotstar$>\dot{M}>$ \mdotacc. In this letter, we set aside the question of how super-Eddington accretion itself proceeds in the vicinity of the accretor \ie how the compact object can accrete at a rate \mdotacc leading to $L_X>$\ledd. Rather, we ask whether stellar material can be transferred to the compact object at a rate $\dot{M}$ high enough to reach the ULX luminosity level, without necessarily assuming \rlof. Indeed, a wind speed low enough compared to the orbital speed could lead to a significant enhancement of the mass transfer rate as shown by \cite{Mohamed2007} in the context of symbiotic binaries. This mechanism, known as wind Roche lobe overflow (wind-\rlof), is characterized by a strongly beamed wind in the orbital plane and towards the accretor. This mass transfer does not suffer the runaway \rlof expected for high mass ratios since the total mass of the system is not conserved and the star does not fill its Roche lobe, although a fraction of the stellar wind large enough to reach the \ulx level might still be captured by the accretor.
 
 % ------------------------------------------------
 \section{Line-driven wind acceleration in SgXB}
@@ -153,7 +147,7 @@ X-ray binaries have lower luminosities though. Neither RLOF nor wind BHL can rea
 \includegraphics[width=0.99\columnwidth]{Pictures/3D.png}
   \label{fig:3D}
 \end{subfigure}
-\caption{(upper panel) Wind velocity profiles of a representative B0.5 Ib supergiant star, HD 77581 \citep[the donor star in Vela X-1][]{Hiltner1972,Forman1973}. The green solid line is the $\beta$-velocity profile deduced by \cite{Gimenez-Garcia2016} from observations, while the green shaded region shows the uncertainties on the terminal wind speed. \cite{Sander2017} computed the hydrodynamic atmosphere solution for the wind stratification (red solid line), here fitted by a $\beta$-velocity profile (dashed red line). (lower panel) Illustration of the integration of the streamlines (orange) from the stellar surface (blue) to the Roche lobe of the accretor (transparent green).}
+\caption{(upper panel) Wind velocity profiles of a representative B0.5 Ib supergiant star, HD 77581 \citep[the donor star in Vela X-1, where the accreting \ns lies at $\sim$1.8 stellar radii][]{Hiltner1972,Forman1973}. The green solid line is the $\beta$-velocity profile deduced by \cite{Gimenez-Garcia2016} from observations, while the green shaded region shows the uncertainties on the terminal wind speed. \cite{Sander2017} computed the hydrodynamic atmosphere solution for the wind stratification (red solid line), here fitted by a $\beta$-velocity profile (dashed red line). (lower panel) Illustration of the integration of the streamlines (orange) from the stellar surface (blue) to the Roche lobe of the accretor (transparent green).}
 \label{fig:setup}
 \end{figure} 
 
@@ -162,13 +156,15 @@ X-ray binaries have lower luminosities though. Neither RLOF nor wind BHL can rea
 \label{sec:}
 % - - - - - - - - - - - - - - - - - - - - - - - - 
 
+OK for cool stars too since what matters is essentially the wind speed compared to the orbital speed : in two \ulx, \cite{Heida2016} found near-infrared counterparts consistent with red supergiants which could play the role of donor stars.
+
 % - - - - - - - - - - - - - - - - - - - - - - - - 
 \subsection{The equation of motion}
 \label{sec:}
 % - - - - - - - - - - - - - - - - - - - - - - - - 
 
 % ------------------------------------------------
-\section{Mass transferred via wind-RLOF}
+\section{Mass transfer via wind-RLOF}
 \label{sec:}
 % ------------------------------------------------
 
@@ -219,6 +215,8 @@ A comparison to BHL formula (Fig.4)
 \end{table}
 \end{center}
 
+Since \mdotstar sets the maximum rate reachable, a first necessary condition for a \ulx is to be in association with a star having a large mass loss rate.
+
 Absolute values, how realistic? Indeed, capturing a large fraction of the wind from the donor star is a necessary condition to reach significant mass transfer rates, but it is not a guarantee. For instance, Vela X-1 : ...
 
 Mass loss rates from \cite{Vink2000,Vink2001} (Sanders, private communication).
@@ -237,7 +235,11 @@ For M101, assuming the mass of 20\msun for the Wolf-Rayet derived from the mass-
 \label{fig:BHL}
 \end{figure}
 
+Similar components as the ones found in \sgx. X-ray binaries have lower luminosities though. Neither RLOF nor wind BHL can reach these levels. RLOF, ~LMXB, limited by the transverse section of the channel @ L1 while fast winds (~sgx) mean low capture cross-sections. The first is essentially limited by the small sound speed compared to the orbital speed while the second is limited by the large wind speed with respect to the orbital speed. => wind-RLOF configuration leading to enhanced accretion, best of both worlds when the stellar mass loss rate is large. \cite{King2002} suggested that above a mass ratio unity, unstable RLOF mass transfer occurs on a thermal time scale and lead to high mass accretion rate onto the compact companion. However, \cite{Pavlovskii2017} recently found that RLOF mass transfer can be stable for large q, up to 7.5. Not high enough though to match the mass ratio in P13 where the stellar mass is at least 10 times larger than the mass of the accreting \ns.
+
 In \cite{Motch2014}, it is assumed that the donor star fills its Roche lobe on the basis that the wind mass loss rate derived by \cite{Kudritzki1999} would be inferior to 10$^{-6}$erg$\cdot$s$^{-1}$. However, \cite{Kudritzki1999} did not include late type B supergiants star in their study of the wind momentum - luminosity relationship which precludes any conclusion on their mass loss rate. \cite{Vink2000} and \cite{Vink2001} provided fits for the mass loss rate and terminal speed which extend below the second bi-stability jump, for stellar effective temperatures corresponding to a B9Ia star. BUT WIND-RLOF LEADS TO SIGNIFICANT MASS TRANSFER ENHANCEMENT.
+
+In P13, \cite{Fuerst2018} isolated the intrinsic pulse period derivative which shows a strong spinning up of the accreting \ns => disc-like structure? Fully compatible with a wind-RLOF \citep{ElMellah2019}.  WIND-RLOF BELIEVED TO BE AT STAKE IN SOME SGXB SUCH AS VELA X-1 AND CYG X-1 \citep{ElMellah2019}
 
 However, at these X-ray luminosities, even with an orbital period as long as in P13, we do expect a significant X-ray ionizing feedback on the wind and a serious departure from the classic wind launching mechanism \citep{Hatchett1977,Stevens1991}. \cite{Ho1987} already pinpointed that a high luminosity solution could exist when the wind was highly ionized, a result also derived by \cite{Karino2014}.
 

@@ -2,14 +2,14 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: letter.aux
 I couldn't open style file aa.bst
----line 75 of file letter.aux
+---line 90 of file letter.aux
  : \bibstyle{aa
  :             }
 I'm skipping whatever remains of this command
 I found no style file---while reading file letter.aux
-You've used 29 entries,
+You've used 37 entries,
             0 wiz_defined-function locations,
-            142 strings with 1151 characters,
+            158 strings with 1319 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
