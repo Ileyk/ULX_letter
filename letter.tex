@@ -58,7 +58,11 @@
 \newcommand*\diff{\mathop{}\!\mathrm{d}}
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
 \newcommand*{\msun}{$M_{\odot}$\@\xspace}
+\newcommand*{\mdotstar}{$\dot{M}_{\text{\mystar}}$\@\xspace}
+\newcommand*{\mdotacc}{$\dot{M}_{\text{acc}}$\@\xspace}
+\newcommand*{\ledd}{$L_{\text{Edd}}$\@\xspace}
 
+ 
 %\usepackage[options]{hyperref}
 % To add links in your PDF file, use the package "hyperref"
 % with options according to your LaTeX or PDFLaTeX drivers.
@@ -111,9 +115,22 @@ XXX
 
 \section{Introduction}
 
-Ultra-luminous X-ray sources are point sources with luminosities in excess of 10$^{39}$erg$\cdot$s$^{-1}$. This X-ray luminosity threshold corresponds approximately to the Eddington luminosity of a 10 solar masses black hole (\bh), the limit above which isotropic accretion is thought to be self-regulated by the radiative field it produces \citep{Rappaport2005}. They are found off-nuclear in galaxies within a couple of 10Mpc, ruling against a supermassive black hole origin.
+Ultra-luminous X-ray sources are point sources with luminosities in excess of 10$^{39}$erg$\cdot$s$^{-1}$ \citep[see][for a recent review]{Kaaret2017}. This X-ray luminosity threshold corresponds approximately to the Eddington luminosity \ledd of a 10\msun black hole (\bh), the limit above which isotropic accretion onto a body of this mass is thought to be self-regulated by the radiative field it produces \citep{Rappaport2005}. They are found off-nuclear in galaxies within a couple of 10Mpc, ruling against a supermassive black hole origin. If the emission is not beamed, such accretion rates can only be sustained for accretors of at least several 10 to several 100\msun bodies, suggestive of the long awaited population of intermediate mass black holes \citep{Colbert1999}. The observation of gravitational waves emitted by merging compact objects unearthed \bh of several 10\msun, while the accretors in the ULX IC 10 X-1 \citep{Brandt1997,Prestwich2007,Silverman2008} and M82 X-1 \citep{Brightman2016} are both 20 to 35\msun \bh. 
 
-What is it? Webb. Review by Kaaret2017. Draw the line at 1E39erg/s (~Eddington limit for a 10 solar masses BH). Plurality of origins and at this point, we can not discard that some might be the long awaited IMBH as suggested by \cite{Colbert1999}. Actually, we know that some accretors have masses too high for a \ns : IC10 X-1 \citep{Prestwich2007,Silverman2008}. Although another scenario is investigated in this letter.
+However, the detections of a cyclotron resonance scattering feature and of coherent pulsations from several ULX demonstrate that other ULX host super-Eddington accreting neutron stars \citep[\ns][]{Bachetti2014,Furst2016,Israel2017,Carpano2018,Brightman2018}. In one of them, NGC7793 P13 (hereafter P13), \cite{Motch2014} identified a stellar spectrum consistent with a 20\msun B9Ia star, in a $\sim$64 days orbit with an X-ray source they assumed to be a \bh but which later turned out to be an accreting \ns \citep{Furst2016}. It was further argued that the star has to fill its Roche lobe because the stellar mass loss rate would be too low and wind accretion would not be able to lead to a significant fraction of the stellar wind being captured by the accretor. Furthermore, \cite{Fuerst2018} isolated the intrinsic pulse period derivative which shows a strong spinning up of the accreting \ns. On the other hand, \citep{Liu2013} showed that in M101 ULX-1, the Helium emission lines are best explained by a Wolf-Rayet donor star twice smaller than its Roche lobe, ruling out the possibility of a mass transfer towards the accreting stellar mass \bh via Roche lobe overflow (\rlof). This result illustrates the pressing need for a better understanding of wind capture in binary systems.
+
+The final absolute X-ray luminosity $L_X$ released by accretion onto a compact object fed by a stellar companion depends on :
+\begin{itemize}
+\item \mdotstar, the stellar mass loss rate which sets the maximum rate reachable.
+\item $\dot{M}$, the rate at which mass is transferred from the star into the domain of gravitational influence of the accretor (either the Roche lobe or the accretion cylinder).
+\item \mdotacc, the mass which actually ends up being accreted onto the compact object.
+\item $\zeta$, the efficiency of the conversion of accreted mass to radiation. In this paper, we set it to 10$\%$, appropriate for negligible outflows \citep{Kaaret2017}.
+\end{itemize} 
+with \mdotstar$>\dot{M}>$\mdotacc. In this letter, we set aside the question of the mechanism responsible for super-Eddington accretion itself \ie how the compact object can accrete at a rate \mdotacc leading to $L_X>$\ledd. Rather, we  
+
+ mechanism leading to super-Eddington accretion which explains how the compact object can accrete at a rate \mdotacc Pinto
+
+Although another scenario is investigated in this letter.
 
 Regardless of the mechanism which explains the super-Eddington accretion rates in the immediate vicinity of the accretor, which source of matter? Likely binary systems (natural extension of the HMXB LX distribution) where a donor star plays the role of a reservoir tapped by the orbiting compact object. In P13 for instance, high mass star + NS. In M101, the spectrum is suggestive of a WR star and the accretor might be a BH (Liu2013).
 
@@ -155,7 +172,7 @@ X-ray binaries have lower luminosities though. Neither RLOF nor wind BHL can rea
 \label{sec:}
 % ------------------------------------------------
 
-We differentiate 3 mass rates : $\dot{M}$, $\dot{M}_{\text{\mystar}}$ and $\dot{M}_{acc}$
+We differentiate 3 mass rates : $\dot{M}$, \mdotstar and \mdotacc
 
 in the sense of “entering the effective region of accretion" (either Roche lobe of the accretor or set by the accretion radius). Upper limit. For fast wind, effective cross-section set by accretion radius which decreases quickly and much below the radius of the Roche lobe of the accretor when the speed of the wind entering the Roche lobe gets larger than the orbital speed.
 
@@ -196,7 +213,7 @@ A comparison to BHL formula (Fig.4)
   \hline
   $\dot{M}_{acc}/\dot{M}$ & 4\%  & 40\% \\
   $\zeta=L_X/\dot{M}_{acc}c^2$ & 10\% & 10\% \\
-  $\dot{M}_{\text{\mystar}}$ & 5$\cdot$10$^{-7}$M$_{\odot}\cdot$yr$^{-1}$ & 10$^{-4}$M$_{\odot}\cdot$yr$^{-1}$ \\
+  \mdotstar & 5$\cdot$10$^{-7}$M$_{\odot}\cdot$yr$^{-1}$ & 10$^{-4}$M$_{\odot}\cdot$yr$^{-1}$ \\
   $L_X$ & 5$\cdot$10$^{36}$erg$\cdot$s$^{-1}$ & 10$^{40}$erg$\cdot$s$^{-1}$ \\
 \end{tabularx}
 \end{table}
@@ -206,6 +223,7 @@ Absolute values, how realistic? Indeed, capturing a large fraction of the wind f
 
 Mass loss rates from \cite{Vink2000,Vink2001} (Sanders, private communication).
 
+For M101, assuming the mass of 20\msun for the Wolf-Rayet derived from the mass-luminosity relation is accurate, the total mass of the system ranges from 25\msun for an edge-on inclination to 40\msun for a 20 degrees inclination. It leads to orbital speeds approximately 3.3 to 4.2 times smaller than the terminal wind speed of 1,300km$\cdot$s$^{-1}$, their best fit to explain the Helium emission lines. They also compute a mass loss rate of 2$\cot$10$^{-5}$\msun$\cdot$yr$^{-1}$. But notice that the X-ray luminosity of a few 10$^{39}$erg$\cdot$s$^{-1}$ lies at the lower end of the ULX regime (similarly to P13, slightly brighter).
 
 % ------------------------------------------------
 \section{Discussion and conclusions}
@@ -219,11 +237,17 @@ Mass loss rates from \cite{Vink2000,Vink2001} (Sanders, private communication).
 \label{fig:BHL}
 \end{figure}
 
+In \cite{Motch2014}, it is assumed that the donor star fills its Roche lobe on the basis that the wind mass loss rate derived by \cite{Kudritzki1999} would be inferior to 10$^{-6}$erg$\cdot$s$^{-1}$. However, \cite{Kudritzki1999} did not include late type B supergiants star in their study of the wind momentum - luminosity relationship which precludes any conclusion on their mass loss rate. \cite{Vink2000} and \cite{Vink2001} provided fits for the mass loss rate and terminal speed which extend below the second bi-stability jump, for stellar effective temperatures corresponding to a B9Ia star. BUT WIND-RLOF LEADS TO SIGNIFICANT MASS TRANSFER ENHANCEMENT.
+
+However, at these X-ray luminosities, even with an orbital period as long as in P13, we do expect a significant X-ray ionizing feedback on the wind and a serious departure from the classic wind launching mechanism \citep{Hatchett1977,Stevens1991}. \cite{Ho1987} already pinpointed that a high luminosity solution could exist when the wind was highly ionized, a result also derived by \cite{Karino2014}.
+
 BHL
 
 RLOF
 
 AGB and RSG donor stars have unknown wind launching process, no report of beta-law velocity profile but low terminal speeds and large mass loss rates => could also work for them (Heida).
+
+Suitable for Hyperluminous X-ray sources such as ESO 243-49 HLX-1, with an X-ray luminosity up to $\sim$10$^{42}$erg$\cdot$s$^{-1}$ \citep{Farrell2009,Webb2017}?
 
 \begin{acknowledgements}
 IEM is grateful to Marianne Heida, Selma De Mink and Philipp Podsiadlowski for insightful exchanges on the possible scenarios leading to ultra-luminous X-ray sources. IEM has received funding from the Research Foundation Flanders (FWO) and the European Union's Horizon 2020 research and innovation program under the Marie Sk\l odowska-Curie grant agreement No 665501. IEM and JOS thank the Instituto de F\'{i}sica de Cantabria for its hospitality and for sponsoring a meeting which brought together the massive stars and X-ray binaries communities.
