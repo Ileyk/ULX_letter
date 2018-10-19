@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 OCT 2018 19:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 OCT 2018 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -558,14 +558,13 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count112
 \LT@p@ftn=\toks25
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
+(./natbib.sty
+Package: natbib 2006/03/22 7.3 (PWD)
 \bibhang=\skip68
 \bibsep=\skip69
-LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \cite on input line 541.
 \c@NAT@ctr=\count113
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
@@ -974,12 +973,6 @@ LaTeX Warning: Label `sec:' multiply defined.
 
 LaTeX Warning: Label `sec:' multiply defined.
 
-
-LaTeX Warning: Label `sec:' multiply defined.
-
-
-LaTeX Warning: Label `sec:' multiply defined.
-
 )
 \openout1 = `letter.aux'.
 
@@ -1174,191 +1167,69 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 10.40245pt on input line 116.
 
-
-Package natbib Warning: Citation `Kaaret2017' on page 1 undefined on input line
- 118.
-
-
-Package natbib Warning: Citation `Rappaport2005' on page 1 undefined on input l
-ine 118.
-
-
-Package natbib Warning: Citation `Colbert1999' on page 1 undefined on input lin
-e 118.
-
-
-Package natbib Warning: Citation `Brandt1997' on page 1 undefined on input line
- 118.
-
-
-Package natbib Warning: Citation `Prestwich2007' on page 1 undefined on input l
-ine 118.
-
-
-Package natbib Warning: Citation `Silverman2008' on page 1 undefined on input l
-ine 118.
-
-
-Package natbib Warning: Citation `Brightman2016' on page 1 undefined on input l
-ine 118.
-
-
-Package natbib Warning: Citation `Bachetti2014' on page 1 undefined on input li
-ne 120.
-
-
-Package natbib Warning: Citation `Furst2016' on page 1 undefined on input line 
-120.
-
-
-Package natbib Warning: Citation `Israel2017' on page 1 undefined on input line
- 120.
-
-
-Package natbib Warning: Citation `Carpano2018' on page 1 undefined on input lin
-e 120.
-
-
-Package natbib Warning: Citation `Brightman2018' on page 1 undefined on input l
-ine 120.
-
-
-Package natbib Warning: Citation `Motch2014' on page 1 undefined on input line 
-120.
-
-
-Package natbib Warning: Citation `Furst2016' on page 1 undefined on input line 
-120.
-
-
-Package natbib Warning: Citation `Pavlovskii2017' on page 1 undefined on input 
-line 120.
-
-
-Package natbib Warning: Citation `Liu2013' on page 1 undefined on input line 12
-0.
-
-
-Package natbib Warning: Citation `Gilfanov2004' on page 1 undefined on input li
-ne 122.
-
-
-Package natbib Warning: Citation `Swartz2011' on page 1 undefined on input line
- 122.
-
-
-Package natbib Warning: Citation `Corbet2013' on page 1 undefined on input line
- 122.
-
-
-Package natbib Warning: Citation `Walton2016' on page 1 undefined on input line
- 122.
-
-
-Package natbib Warning: Citation `Fuerst2018' on page 1 undefined on input line
- 122.
-
-
-Package natbib Warning: Citation `Kaaret2017' on page 1 undefined on input line
- 122.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4518) has occurred while \output is active []
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 126.
+Package hyperref Warning: Suppressing link with empty target on input line 125.
 
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 126.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 127.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-
-Package natbib Warning: Citation `Kaaret2017' on page 2 undefined on input line
- 129.
-
-
-Package natbib Warning: Citation `Mohamed2007' on page 2 undefined on input lin
-e 131.
-
-<Pictures/vel_prof.pdf, id=53, 545.75806pt x 405.06802pt>
+<Pictures/vel_prof.pdf, id=114, 545.75806pt x 405.06802pt>
 File: Pictures/vel_prof.pdf Graphic file (type pdf)
 
 <use Pictures/vel_prof.pdf>
-Package pdftex.def Info: Pictures/vel_prof.pdf used on input line 141.
-(pdftex.def)             Requested size: 259.14912pt x 192.34131pt.
+Package pdftex.def Info: Pictures/vel_prof.pdf used on input line 157.
+(pdftex.def)             Requested size: 256.0748pt x 190.0606pt.
 
-<Pictures/3D.png, id=54, 1613.02625pt x 861.2175pt>
-File: Pictures/3D.png Graphic file (type png)
- <use Pictures/3D.png>
-Package pdftex.def Info: Pictures/3D.png used on input line 147.
-(pdftex.def)             Requested size: 259.14912pt x 138.36267pt.
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 139--150
-[]$[]$
+Package natbib Warning: Citation `ElMellah2016a' on page 2 undefined on input l
+ine 162.
+
+
+Package natbib Warning: Citation `Lucy1970' on page 2 undefined on input line 1
+62.
+
+
+Package natbib Warning: Citation `Castor1975' on page 2 undefined on input line
+ 162.
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 162--163
+\T1/txr/m/n/10 We solve the bal-lis-tic equa-tion of mo-tion in the three-
  []
 
 
-Overfull \hbox (5.69055pt too wide) in paragraph at lines 139--150
-[]$ 
- []
-
-
-Package natbib Warning: Citation `Hiltner1972' on page 2 undefined on input lin
-e 150.
-
-
-Package natbib Warning: Citation `Forman1973' on page 2 undefined on input line
- 150.
-
-
-Package natbib Warning: Citation `Gimenez-Garcia2016' on page 2 undefined on in
-put line 150.
-
-
-Package natbib Warning: Citation `Sander2017' on page 2 undefined on input line
- 150.
-
-
-Package natbib Warning: Citation `Hiltner1972' on page 2 undefined on input lin
-e 150.
-
-
-Package natbib Warning: Citation `Forman1973' on page 2 undefined on input line
- 150.
-
-
-Package natbib Warning: Citation `Gimenez-Garcia2016' on page 2 undefined on in
-put line 150.
-
-
-Package natbib Warning: Citation `Sander2017' on page 2 undefined on input line
- 150.
+Package natbib Warning: Citation `ElMellah2015' on page 2 undefined on input li
+ne 168.
 
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 155.
+(Font)              scaled to size 9.49997pt on input line 195.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 155.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 195.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 155.
-
-Package natbib Warning: Citation `Heida2016' on page 2 undefined on input line 
-159.
-
-<Pictures/mdot_grid.png, id=55, 1121.6304pt x 706.8006pt>
+(Font)              scaled to size 9.49997pt on input line 195.
+<Pictures/mdot_grid.png, id=129, 1121.6304pt x 706.8006pt>
 File: Pictures/mdot_grid.png Graphic file (type png)
 
 <use Pictures/mdot_grid.png>
-Package pdftex.def Info: Pictures/mdot_grid.png used on input line 182.
+Package pdftex.def Info: Pictures/mdot_grid.png used on input line 201.
 (pdftex.def)             Requested size: 512.1496pt x 322.72719pt.
 
-Underfull \hbox (badness 10000) in alignment at lines 214--214
+
+Package hyperref Warning: Suppressing link with empty target on input line 208.
+
+
+[2 <./Pictures/vel_prof.pdf>]
+Overfull \hbox (2.11078pt too wide) in alignment at lines 239--239
 [][][] 
  []
 
@@ -1366,144 +1237,164 @@ Underfull \hbox (badness 10000) in alignment at lines 214--214
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package natbib Warning: Citation `Vink2000' on page 2 undefined on input line 2
-22.
+Package hyperref Warning: Suppressing link with empty target on input line 253.
 
 
-Package natbib Warning: Citation `Vink2001' on page 2 undefined on input line 2
-22.
+[3 <./Pictures/mdot_grid.png>]
+
+Package natbib Warning: Citation `ElMellah2019' on page 4 undefined on input li
+ne 253.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 224.
+Package natbib Warning: Citation `Sundqvist2017' on page 4 undefined on input l
+ine 253.
 
 
-[2 <./Pictures/vel_prof.pdf> <./Pictures/3D.png>]
-<Pictures/BHL.png, id=145, 88.33pt x 83.31125pt>
-File: Pictures/BHL.png Graphic file (type png)
- <use Pictures/BHL.png>
-Package pdftex.def Info: Pictures/BHL.png used on input line 233.
-(pdftex.def)             Requested size: 253.51546pt x 239.11497pt.
+Package natbib Warning: Citation `ElMellah' on page 4 undefined on input line 2
+53.
 
 
-Package natbib Warning: Citation `King2002' on page 3 undefined on input line 2
-38.
+Package natbib Warning: Citation `Vink2000' on page 4 undefined on input line 2
+56.
 
 
-Package natbib Warning: Citation `Pavlovskii2017' on page 3 undefined on input 
-line 238.
+Package natbib Warning: Citation `Vink2000' on page 4 undefined on input line 2
+58.
 
 
-Package natbib Warning: Citation `Motch2014' on page 3 undefined on input line 
-240.
+Package natbib Warning: Citation `MacLeod2017' on page 4 undefined on input lin
+e 276.
 
 
-Package natbib Warning: Citation `Kudritzki1999' on page 3 undefined on input l
-ine 240.
+Package natbib Warning: Citation `Sundqvist2017' on page 4 undefined on input l
+ine 276.
 
 
-Package natbib Warning: Citation `Kudritzki1999' on page 3 undefined on input l
-ine 240.
+Package natbib Warning: Citation `Manousakis2015c' on page 4 undefined on input
+ line 276.
 
 
-Package natbib Warning: Citation `Vink2000' on page 3 undefined on input line 2
-40.
+Package natbib Warning: Citation `Pinto2016a' on page 4 undefined on input line
+ 276.
 
 
-Package natbib Warning: Citation `Vink2001' on page 3 undefined on input line 2
-40.
+Package natbib Warning: Citation `Heida2015' on page 4 undefined on input line 
+278.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package natbib Warning: Citation `XXX' on page 4 undefined on input line 278.
 
 
+Package natbib Warning: Citation `DeVal-Borro2017' on page 4 undefined on input
+ line 278.
 
-Package hyperref Warning: Suppressing link with empty target on input line 241.
+
+Package natbib Warning: Citation `Heida2014' on page 4 undefined on input line 
+280.
 
 
-[3 <./Pictures/BHL.png> <./Pictures/mdot_grid.png>]
-
-Package natbib Warning: Citation `Fuerst2018' on page 4 undefined on input line
- 242.
+Package natbib Warning: Citation `Karino2017' on page 4 undefined on input line
+ 280.
 
 
 Package natbib Warning: Citation `ElMellah2019' on page 4 undefined on input li
-ne 242.
+ne 280.
+
+(./letter.bbl
+
+Package hyperref Warning: Suppressing link with empty target on input line 75.
+
+[4]
+
+! Package inputenc Error: Unicode char Â. (U+30)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 Kudritzki, Â.
+                   , Puls, Â., Lennon, Â., {et~al.} 1999, Astron. Astrophys.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Package natbib Warning: Citation `ElMellah2019' on page 4 undefined on input li
-ne 242.
+! Package inputenc Error: Unicode char Â. (U+30)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 Kudritzki, Â., Puls, Â.
+                             , Lennon, Â., {et~al.} 1999, Astron. Astrophys.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Package natbib Warning: Citation `Hatchett1977' on page 4 undefined on input li
-ne 244.
+! Package inputenc Error: Unicode char Â. (U+30)
+(inputenc)                not set up for use with LaTeX.
 
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 Kudritzki, Â., Puls, Â., Lennon, Â.
+                                         , {et~al.} 1999, Astron. Astrophys.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-Package natbib Warning: Citation `Stevens1991' on page 4 undefined on input lin
-e 244.
-
-
-Package natbib Warning: Citation `Ho1987' on page 4 undefined on input line 244
-.
-
-
-Package natbib Warning: Citation `Karino2014' on page 4 undefined on input line
- 244.
-
-
-Package natbib Warning: Citation `Farrell2009' on page 4 undefined on input lin
-e 252.
-
-
-Package natbib Warning: Citation `Webb2017' on page 4 undefined on input line 2
-52.
-
-(./letter.bbl)
+)
 
 Package natbib Warning: There were undefined citations.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 267.
+Package hyperref Warning: Suppressing link with empty target on input line 303.
 
 
-[4
+[5
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
  (./letter.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
 Package rerunfilecheck Info: File `letter.out' has not changed.
-(rerunfilecheck)             Checksum: 514D58B9A69B9D0BF0608C1BE71A5D7F;581.
+(rerunfilecheck)             Checksum: 9CB9DC8BDDD4F7695842C563324DC29B;396.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11730 strings out of 493014
- 166053 string characters out of 6133351
- 283610 words of memory out of 5000000
- 14973 multiletter control sequences out of 15000+600000
- 103119 words of font info for 148 fonts, out of 8000000 for 9000
+ 11671 strings out of 493014
+ 165167 string characters out of 6133351
+ 289111 words of memory out of 5000000
+ 14879 multiletter control sequences out of 15000+600000
+ 103441 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,16n,45p,1695b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,16n,45p,1695b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/txfonts/txsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
-helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helveti
-c/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on letter.pdf (4 pages, 275676 bytes).
+e1/public/txfonts/txex.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/txfonts/txsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helveti
+c/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8
+a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on letter.pdf (5 pages, 253986 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 59 words of extra memory for PDF output out of 10000 (max. 10000000)
 
