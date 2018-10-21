@@ -2,50 +2,52 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: letter.aux
 The style file: aa.bst
-Database file #1: /Users/Ileyk/Documents/Bibtex/article_ULX.bib
+Database file #1: /Users/Ileyk/Documents/Bibtex/article_ULX_no_url.bib
 Warning--I didn't find a database entry for "Vink2000"
-Warning--I didn't find a database entry for "ElMellah2019"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--no book title in Gilfanov2004
+`booktitle' is a missing field, not a string, for entry Gilfanov2004
+while executing---line 1684 of file aa.bst
 Warning--empty journal in Webb2017
-You've used 35 entries,
+You've used 47 entries,
             3039 wiz_defined-function locations,
-            944 strings with 14497 characters,
-and the built_in function-call counts, 22866 in all, are:
-= -- 1795
-> -- 2482
-< -- 10
-+ -- 827
-- -- 792
-* -- 2079
-:= -- 4290
-add.period$ -- 35
-call.type$ -- 35
-change.case$ -- 404
-chr.to.int$ -- 35
-cite$ -- 36
-duplicate$ -- 657
-empty$ -- 906
-format.name$ -- 889
-if$ -- 4448
+            975 strings with 13007 characters,
+and the built_in function-call counts, 29058 in all, are:
+= -- 2306
+> -- 3019
+< -- 14
++ -- 1004
+- -- 957
+* -- 2621
+:= -- 5438
+add.period$ -- 47
+call.type$ -- 47
+change.case$ -- 507
+chr.to.int$ -- 47
+cite$ -- 49
+duplicate$ -- 884
+empty$ -- 1212
+format.name$ -- 1095
+if$ -- 5658
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 33
-newline$ -- 109
-num.names$ -- 140
-pop$ -- 411
+missing$ -- 45
+newline$ -- 145
+num.names$ -- 188
+pop$ -- 615
 preamble$ -- 1
-purify$ -- 404
+purify$ -- 507
 quote$ -- 0
-skip$ -- 541
+skip$ -- 632
 stack$ -- 0
-substring$ -- 687
-swap$ -- 11
+substring$ -- 924
+swap$ -- 13
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 315
-warning$ -- 1
-while$ -- 138
+type$ -- 423
+warning$ -- 2
+while$ -- 183
 width$ -- 0
-write$ -- 352
-(There were 3 warnings)
+write$ -- 472
+(There was 1 error message)
